@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		2D4933BF2830B9670036355E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4933BE2830B9670036355E /* AppDelegate.swift */; };
 		2D4933C12830B9670036355E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4933C02830B9670036355E /* SceneDelegate.swift */; };
-		2D4933C32830B9670036355E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4933C22830B9670036355E /* ViewController.swift */; };
 		2D4933C62830B9670036355E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D4933C42830B9670036355E /* Main.storyboard */; };
 		2D4933C82830B9680036355E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D4933C72830B9680036355E /* Assets.xcassets */; };
 		2D4933CB2830B9680036355E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D4933C92830B9680036355E /* LaunchScreen.storyboard */; };
+		2D4933DC2833D5BC0036355E /* NameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4933DB2833D5BC0036355E /* NameViewController.swift */; };
+		2D4933DF2833D7440036355E /* BookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4933DE2833D7440036355E /* BookingViewController.swift */; };
+		2D4933E22833D79B0036355E /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4933E12833D79B0036355E /* TableViewController.swift */; };
+		2D4933E52833D81C0036355E /* ConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4933E42833D81C0036355E /* ConfirmationViewController.swift */; };
+		2D4933E82833D86E0036355E /* ReservationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4933E72833D86E0036355E /* ReservationController.swift */; };
+		2D4933F0283487660036355E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4933EF283487650036355E /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2D4933BB2830B9670036355E /* Booking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Booking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D4933BE2830B9670036355E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D4933C02830B9670036355E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2D4933C22830B9670036355E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2D4933C52830B9670036355E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2D4933C72830B9680036355E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D4933CA2830B9680036355E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D4933CC2830B9680036355E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D4933DB2833D5BC0036355E /* NameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameViewController.swift; sourceTree = "<group>"; };
+		2D4933DE2833D7440036355E /* BookingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingViewController.swift; sourceTree = "<group>"; };
+		2D4933E12833D79B0036355E /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		2D4933E42833D81C0036355E /* ConfirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationViewController.swift; sourceTree = "<group>"; };
+		2D4933E72833D86E0036355E /* ReservationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationController.swift; sourceTree = "<group>"; };
+		2D4933EF283487650036355E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,28 @@
 		2D4933BD2830B9670036355E /* Booking */ = {
 			isa = PBXGroup;
 			children = (
+				2D4933EC2833DFDE0036355E /* Controller */,
 				2D4933BE2830B9670036355E /* AppDelegate.swift */,
 				2D4933C02830B9670036355E /* SceneDelegate.swift */,
-				2D4933C22830B9670036355E /* ViewController.swift */,
 				2D4933C42830B9670036355E /* Main.storyboard */,
 				2D4933C72830B9680036355E /* Assets.xcassets */,
 				2D4933C92830B9680036355E /* LaunchScreen.storyboard */,
 				2D4933CC2830B9680036355E /* Info.plist */,
 			);
 			path = Booking;
+			sourceTree = "<group>";
+		};
+		2D4933EC2833DFDE0036355E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2D4933E12833D79B0036355E /* TableViewController.swift */,
+				2D4933DE2833D7440036355E /* BookingViewController.swift */,
+				2D4933E42833D81C0036355E /* ConfirmationViewController.swift */,
+				2D4933E72833D86E0036355E /* ReservationController.swift */,
+				2D4933DB2833D5BC0036355E /* NameViewController.swift */,
+				2D4933EF283487650036355E /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +160,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D4933C32830B9670036355E /* ViewController.swift in Sources */,
+				2D4933E82833D86E0036355E /* ReservationController.swift in Sources */,
+				2D4933E22833D79B0036355E /* TableViewController.swift in Sources */,
 				2D4933BF2830B9670036355E /* AppDelegate.swift in Sources */,
 				2D4933C12830B9670036355E /* SceneDelegate.swift in Sources */,
+				2D4933DF2833D7440036355E /* BookingViewController.swift in Sources */,
+				2D4933E52833D81C0036355E /* ConfirmationViewController.swift in Sources */,
+				2D4933F0283487660036355E /* ViewController.swift in Sources */,
+				2D4933DC2833D5BC0036355E /* NameViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
