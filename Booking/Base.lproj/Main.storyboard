@@ -33,7 +33,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EHz-1g-lCL">
-                                <rect key="frame" x="90" y="478" width="210" height="49"/>
+                                <rect key="frame" x="90" y="481" width="210" height="49"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                 <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="28"/>
                                 <state key="normal" title="login">
@@ -42,17 +42,6 @@
                                 <connections>
                                     <action selector="LoginButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UgY-Y2-X7X"/>
                                     <action selector="LoginButton:" destination="kUY-zK-dTm" eventType="touchUpInside" id="nJe-RO-Nrz"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wf4-au-UWD">
-                                <rect key="frame" x="90" y="607" width="210" height="49"/>
-                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
-                                <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="28"/>
-                                <state key="normal" title="Sign up">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <action selector="SignUpButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="00N-jI-lce"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3931652603500_.pic" translatesAutoresizingMaskIntoConstraints="NO" id="MxM-5g-NLC">
@@ -65,15 +54,12 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.99827057119999996" green="0.82392569589445619" blue="0.452476919392862" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Wf4-au-UWD" secondAttribute="bottom" constant="154" id="BtV-sM-4Z8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="EHz-1g-lCL" secondAttribute="bottom" constant="280" id="FFj-iL-WNe"/>
                             <constraint firstItem="MxM-5g-NLC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="LAj-b2-SAw"/>
-                            <constraint firstItem="Wf4-au-UWD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="90" id="NWj-6j-Z0l"/>
                             <constraint firstItem="EHz-1g-lCL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="90" id="Snr-iv-yVX"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Wf4-au-UWD" secondAttribute="trailing" constant="90" id="UdT-OP-K1F"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MxM-5g-NLC" secondAttribute="trailing" id="l7Y-oW-HcZ"/>
                             <constraint firstItem="MxM-5g-NLC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="lbS-lK-JBI"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EHz-1g-lCL" secondAttribute="trailing" constant="90" id="sWO-HU-ssv"/>
-                            <constraint firstItem="Wf4-au-UWD" firstAttribute="top" secondItem="EHz-1g-lCL" secondAttribute="bottom" constant="80" id="utx-cu-zPq"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Xgg-td-s4g"/>
